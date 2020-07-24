@@ -1,4 +1,4 @@
-# Data Structure and Algorithms Notes
+# Data Structures and Algorithms Notes
 
 ### What is a Data Structure
 Data structure is a way of organizing data so that it can be used effectively.
@@ -16,4 +16,4 @@ An abstract data type (ADT) is an abstraction of a data structure which provides
 
 The interface does not give any specific details about how something should be implemented or in what programming language.
 
-![alt text](img-abstraction.jpg)
+![Example of abstraction & data structure](img-abstraction.jpg)
