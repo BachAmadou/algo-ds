@@ -16,4 +16,4 @@ An abstract data type (ADT) is an abstraction of a data structure which provides
 
 The interface does not give any specific details about how something should be implemented or in what programming language.
 
-![Example of abstraction & data structure](img-abstraction.jpg)
+![Example of abstraction & data structure](https://raw.githubusercontent.com/BachAmadou/algo-ds/master/image/img-abstraction.JPG)
