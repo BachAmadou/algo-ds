@@ -23,6 +23,7 @@ As programmers, we often find ourselves asking the same
 questionis over and over again:
 
 How much **Time** does this algorithm need to finish?
+
 How much **Space** does this algorithm need for its computation?
 
 ### Big-O Notation
