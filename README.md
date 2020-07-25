@@ -38,8 +38,11 @@ Here is a cheatsheet at for identifying runtime complexity at glance
 ![Identifying Runtime Complexity](https://raw.githubusercontent.com/BachAmadou/algo-ds/master/image/img_2.JPG)
 
 ### Examples of Runtime Complexity
-1. For O(n)
+1. **For O(n)**
+![](https://raw.githubusercontent.com/BachAmadou/algo-ds/master/image/img_3.JPG)
 
-2. For O(n^2)
+2. **For O(n^2)**
+![](https://raw.githubusercontent.com/BachAmadou/algo-ds/master/image/img_4.JPG)
 
-3. For O(n * m)
+3. **For O(n * m)**
+![](https://raw.githubusercontent.com/BachAmadou/algo-ds/master/image/img_5.JPG)
