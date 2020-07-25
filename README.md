@@ -28,3 +28,11 @@ How much **Space** does this algorithm need for its computation?
 
 ### Big-O Notation
 Bigo-O Notation gives an upper bound of the complexity in the **worst** case, helping to quantify performance as the input size becomes **arbitrarily large**
+
+It helps you write better code and becomes important as your inputs get bigger (e.g users posts for an app).
+
+### What does **Better** implementation mean?
+"Better" means **faster time** to finish and to use **less memory (RAM)**, although there is a much stronger emphasis on the former.
+
+Here is a cheatsheet at for identifying runtime complexity at glance
+
