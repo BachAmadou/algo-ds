@@ -36,3 +36,10 @@ It helps you write better code and becomes important as your inputs get bigger (
 
 Here is a cheatsheet at for identifying runtime complexity at glance
 ![Identifying Runtime Complexity](https://raw.githubusercontent.com/BachAmadou/algo-ds/master/image/img_2.JPG)
+
+### Examples of Runtime Complexity
+1. For O(n)
+
+2. For O(n^2)
+
+3. For O(n * m)
