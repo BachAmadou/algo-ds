@@ -35,4 +35,4 @@ It helps you write better code and becomes important as your inputs get bigger (
 "Better" means **faster time** to finish and to use **less memory (RAM)**, although there is a much stronger emphasis on the former.
 
 Here is a cheatsheet at for identifying runtime complexity at glance
-
+![Identifying Runtime Complexity](https://raw.githubusercontent.com/BachAmadou/algo-ds/master/image/img_2.JPG)
