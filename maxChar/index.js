@@ -1,20 +1,26 @@
-// Given an integer, return an integer with the digits
-// reversed.
+// Return the character most commonly used in the string.
 // --- Examples
-//   reverseInt(13) === 31
-//   reverseInt(404) === 404
-//   reverseInt(100) === 1
-//   reverseInt(-13) === -31
-//   reverseInt(-100) === -1
+// maxChar("I loveeeeeee noodles") === "e"
+// maxChar("1337") === "3"
 
-function reverseInt(n) {
-  let reversed = n.toString().split("").reverse().join(""); // this is a string
-  reversed = parseInt(reversed); // turning into a number
+function maxChar(str) {
+  let charCountObj = {};
+  let maxChar = "";
+  let maxCount = 0;
 
-  if(n < 0) {
-    return reversed * -1; // to deal with the negative numbers
+  // Fill out character count object
+  for(let i = 0; i < str.length; i++) {
+    const char = str[i];
+
+    charCountObj[char] = charCountObj[char] + 1 || 1; // the character count object has the letter yet, if it does not then count it 1. Or if it does exist already then increse it to 2 or 3 etc. 
+
+    // Updating the variables of maxChar and maxCount
+    if(charCountObj[char] > maxCount) {
+      maxChar = char;
+      maxCount = charCountObj[char];
+    }
   }
-  return reversed;
+  return maxCount;
 }
 
 // _________ _______  _______ _________   _______  _______  _______  _______  _______
@@ -43,19 +49,12 @@ function reverseInt(n) {
 mocha.setup("bdd");
 const { assert } = chai;
 
-describe("Integer Reversal", () => {
-  it("reverseInt() works on positive numbers", () => {
-    assert.equal(reverseInt(3), 3);
-    assert.equal(reverseInt(13), 31);
-    assert.equal(reverseInt(100), 1);
-    assert.equal(reverseInt(1408), 8041);
-  });
-
-  it("reverseInt() works on negative numbers numbers", () => {
-    assert.equal(reverseInt(-3), -3);
-    assert.equal(reverseInt(-13), -31);
-    assert.equal(reverseInt(-100), -1);
-    assert.equal(reverseInt(-1408), -8041);
+describe("Max Character", () => {
+  it("maxChar() finds the most frequently used character", () => {
+    assert.equal(maxChar("a"), "a");
+    assert.equal(maxChar("test"), "t");
+    assert.equal(maxChar("I loveeeeee noodles"), "e");
+    assert.equal(maxChar("1337"), "3");
   });
 });
 
