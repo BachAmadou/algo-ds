@@ -4,6 +4,8 @@
 //   reverse('abcd') === 'dcba'
 //   reverse('Hello!') === '!olleH'
 
+// LINK TO CODEPEN VERSION: https://codepen.io/816978819/pen/YBqWRZ
+
 
 // SOLUTION 1:
 function reverse(str) {

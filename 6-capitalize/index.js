@@ -5,6 +5,10 @@
 //   capitalize("I'm a little tea pot") --> 'I'm A Little Tea Pot'
 //   capitalize('sHoRt AnD sToUt') --> 'Short And Stout'
 
+
+// LINK TO CODEPEN VERSION: https://codepen.io/816978819/pen/omLVvm
+
+
 function capitalize(str) {
   const strWords = str.split(" ");
   const wordsCase = [];

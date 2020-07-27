@@ -5,6 +5,8 @@
 //   palindrome("Madam") === true
 //   palindrome("love") === false
 
+// LINK TO CODEPEN VERSION: https://codepen.io/816978819/pen/vbGKbZ
+
 function palindrome(str) {
   str = str.toLowerCase();
   const reversed = str.plit("").reverse().join("");

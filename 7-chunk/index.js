@@ -6,6 +6,8 @@
 // chunk(["a", "b", "c", "d"], 2) --> [[ "a", "b"], ["c", "d"]]
 // chunk([0, 1, 2, 3, 4, 5], 4) -->  [[0, 1, 2, 3], [4, 5]]
 
+// LINK TO CODEPEN VERSION: https://codepen.io/816978819/pen/QYEYVN
+
 function chunk(array, size) {
   const result = [];
 

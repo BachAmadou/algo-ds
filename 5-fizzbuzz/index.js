@@ -11,6 +11,8 @@
 //   4
 //   buzz
 
+// LINK TO CODEPEN VERSION: https://codepen.io/816978819/pen/rPeoyV
+
 function fizzBuzz(n) {
   //SOLUTION 1:
   for(let i = 1; i <= n; i++) {

@@ -3,6 +3,8 @@
 // maxChar("I loveeeeeee noodles") === "e"
 // maxChar("1337") === "3"
 
+// LINK TO CODEPEN VERSION: https://codepen.io/816978819/pen/RvaEox
+
 function maxChar(str) {
   let charCountObj = {};
   let maxChar = "";
