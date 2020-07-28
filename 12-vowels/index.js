@@ -10,6 +10,7 @@
 // LINK TO CODEPEN VERSION: https://codepen.io/816978819/pen/ZwOPaR
 
 function vowels(str) {
+  // SOLUTION: 1
   const vowels = "aeiou".split("");
   str = str.toLowerCase();
   let count = 0;
@@ -26,6 +27,19 @@ function vowels(str) {
     }
   }
   return count;
+
+
+  // SOLUTION 2:
+  // const checker = "aeiou".split("");
+  // let count = 0;
+  
+  // for(char of str.toLowerCase()) {
+  //   if(checker.includes(char)) {
+  //     count++;
+  //   }
+  // }
+  // return count;
+
 }
 
 // _________ _______  _______ _________   _______  _______  _______  _______  _______
