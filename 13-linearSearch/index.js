@@ -1,12 +1,14 @@
 // Implement Linear Search Algorithms that search a provided Array for the provided value.
 // The Linear Search Algorithms will either return a boolean, index, or value back.
 
-const { isReturnStatement } = require("@babel/types");
+//const { isReturnStatement } = require("@babel/types");
 
 // const foods = ["pizza", "orange", "yogurt"];
 // linearSearchIndexOf(foods, "pizza") --> 0
 // linearSearchIncludes(foods, "pizza") --> true
 // linearSearchFind(foods, food => food === "pizza") --> "pizza"
+
+// LINK TO CODEPEN VERSION: https://codepen.io/816978819/pen/JzQBze?editors=1010
 
 function linearSearchIndexOf(arr, val) {
   for(let i = 0; i < arr.length; i++) {
