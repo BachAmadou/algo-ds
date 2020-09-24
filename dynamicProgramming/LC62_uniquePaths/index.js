@@ -24,3 +24,7 @@ function uniquePaths(m, n) {
 }
 
 module.exports = uniquePaths;
+
+
+// Time Complexity: O(N * M) where N and M are dimensions of Matrix
+// Space Complexity: O(N * M) Matrix size depends on inputs
