@@ -14,6 +14,20 @@ function maxProfit(prices) {
     }
 
     return maxProfit;
+
+
+    // SOLUTION 2
+    // let maxProfit = 0;
+    // let minBuyPrice = infinity // because any number is less than infinity
+
+    // for (let price of prices) {
+    //     if (price < minBuyPrice) {
+    //         minBuyPrice = price;
+    //     } else if (price - minBuyPrice > maxProfit) {
+    //         maxProfit = price - minBuyPrice;
+    //     }
+    // }
+    // return maxProfit;
 }
 
 module.exports = maxProfit;
